@@ -1,0 +1,14 @@
+.row{
+    padding:25px;
+}
+
+div{
+    background-color:#122231;
+    color:#E1DAD2;  
+}
+
+/* Ubico trabajo y tiempo en la misma linea */
+h1, h3 {
+    display: inline;
+}
+

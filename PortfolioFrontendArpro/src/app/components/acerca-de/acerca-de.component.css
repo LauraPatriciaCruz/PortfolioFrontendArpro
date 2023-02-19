@@ -2,7 +2,8 @@
     padding:20px;
 }
 div{
-    background-color: #a1b5cb;
+    background-color: #122231;
+    color:#E1DAD2;
     text-align: center;
 }
 
@@ -18,6 +19,17 @@ div{
     } 
 }
 
+@media(min-width: 1024px) {
+    #foto-perfil{
+        position:absolute;
+        width:15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left:3%;
+        top:500px;
+    } 
+}
+
 @media(max-width: 575px) {
     #foto-perfil{
         position:absolute;
@@ -29,6 +41,7 @@ div{
     } 
 }
 
+/*Name styles*/
 #nombre{
     font-weight: bold;
     margin-top: 40px;
