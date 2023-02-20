@@ -7,6 +7,10 @@ div{
     text-align: center;
 }
 
+h1{
+    padding-bottom: 40px;
+}
+
 /*PROFILE PICTURE STYLES*/
 @media(min-width: 576px) {
     #foto-perfil{

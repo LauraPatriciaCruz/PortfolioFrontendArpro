@@ -1,14 +1,18 @@
 .row{
-    padding:25px;
+    padding:30px;
+    background-color:#122231;
+    color:#E1DAD2; 
+    
 }
 
-div{
-    background-color:#122231;
-    color:#E1DAD2;  
+h1{
+    text-align: center;
+    padding-bottom: 40px;
 }
+
 
 /* Ubico trabajo y tiempo en la misma linea */
-h1, h3 {
+h2, h3 {
     display: inline;
 }
 

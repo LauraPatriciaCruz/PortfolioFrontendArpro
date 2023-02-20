@@ -1,11 +1,17 @@
-h1, h3{
+h1{
+    text-align: center;
+    padding-bottom: 40px;
+}
+h2, h3{
     display:inline;
 }
 img{
     width: 400px;
 }
 
-div{
+.row{
+    padding:30px;
     background-color:#122231 ;
-    color:#E1DAD2;
+    color: #E1DAD2;
 }
+
