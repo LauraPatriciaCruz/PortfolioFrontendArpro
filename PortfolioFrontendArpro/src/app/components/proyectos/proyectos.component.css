@@ -1,0 +1,30 @@
+.row{
+    padding:30px;
+    background-color:#122231;
+    color: #E1DAD2;
+}
+
+.contenedor{
+    width:auto;
+    margin-bottom: 30px;
+}
+.texto, .imagen {
+    display: inline-block;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    padding:40px;
+}
+
+h2, h4 {
+    display: inline;
+}
+
+img{
+    height: auto;
+}
+
+.img-proyecto{
+    box-shadow:10px 10px 15px #070505
+}
