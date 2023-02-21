@@ -28,3 +28,9 @@ img{
 .img-proyecto{
     box-shadow:10px 10px 15px #070505
 }
+
+.imagen:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
