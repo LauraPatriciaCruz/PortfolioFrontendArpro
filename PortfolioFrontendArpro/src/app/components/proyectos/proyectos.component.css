@@ -10,8 +10,10 @@
 
 .row{
     background-color: #0b0d1b ;
-    color:#ffffff
+    color:#ffffff;
+    padding: 80px 40px;
 }
+
 h1{
     text-align: center;
 }
