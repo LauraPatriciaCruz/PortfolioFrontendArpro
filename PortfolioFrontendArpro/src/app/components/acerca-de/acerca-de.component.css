@@ -1,12 +1,14 @@
 .row{
-    padding:20px;
+    padding:80px 40px;
+    padding-bottom: 80px;
     letter-spacing: 1.8px;
+    font-size: 19px;
     
 }
 div{
     background-color: #122231;
-    color:#E1DAD2;
-    text-align: center;
+    color:#FFFFFF;
+    text-align: justify;
 }
 
 h1{

@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom:40px;
 }
 h2, h3{
     display:inline;
@@ -9,10 +9,16 @@ img{
     width: 400px;
 }
 
+
+
 .row{
-    padding:30px;
+    padding: 80px;
+    padding-left: 50px;
     background-color:#122231 ;
     color: #E1DAD2;
     letter-spacing: 2px;
 }
 
+ul {
+    padding:30px;
+}
