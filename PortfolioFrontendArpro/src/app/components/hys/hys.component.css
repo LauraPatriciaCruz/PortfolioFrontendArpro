@@ -1,13 +1,241 @@
 .row{
     background-color: #FFFFFF;
-    color: #0b0d1b;
-    padding-bottom:100px;
+    color: #ffffff;
+    /* padding-bottom:100px; */
+    height: 100%;
+    width: 100%;
+    margin-bottom: 80px;
 }
 
-h1{
+/* h1{
     text-align: center;
     padding-top: 80px;
     padding-bottom: 40px;
+} */
+
+.father-box {
+    margin-top: 50px;
+    /* width: 100vw; */
+    /* min-width: 590px; */
+    /* position:absolute; */
+    transform: translate(-50%,-50);
+    left:50%;
+    top: 50%;
 }
 
+.container {
+    /* position:relative; */
+    width: 80%;
+    padding: 30px 30px 50px;
+    /* background: linear-gradient(450deg,darkblue,black); */
+    background-color: #ffffff;
+    border: 2px solid rgba(0,0,0,0.1); 
+    border-radius:10px;
+    box-shadow: 0 20px 23px rgba(0,0,0,0.1);
+    /* backdrop-filter: blur(10px); */
+    color: #0B0D1B;
+}
 
+.container *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    color: #0B0D1B;
+    margin-bottom: 50px;
+    letter-spacing:2px;
+    text-align: center;
+    font-size: 34px;
+    font-weight:bold;
+}
+
+/* .skills:not(:last-child){
+    margin-bottom: 30px;
+} */
+
+.details{
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 2px;
+}
+
+.menu {
+    position:relative;
+    border: 1px solid  #0B0D1B;
+    border-radius: 20px;
+}
+
+.menu div {
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #0B0D1B;
+    ;
+}
+
+/*animacion*/
+
+#html-menu{
+    animation: html-bar 2s forwards;
+}
+
+@keyframes html-bar {
+    100%{
+        width: 90%;
+    }
+}
+/* ----------------------------------- */
+#css-menu{
+    animation: css-bar 2s forwards;
+}
+
+@keyframes css-bar {
+    100%{
+        width: 75%;
+    }
+}
+/* -------------------------------------- */
+#js-menu{
+    animation: js-bar 2s forwards;
+}
+
+@keyframes js-bar {
+    100%{
+        width: 65%;
+    }
+}
+/* -------------------------------------- */
+#ts-menu{
+    animation: ts-bar 2s forwards;
+}
+
+@keyframes ts-bar {
+    100%{
+        width: 60%;
+    }
+}
+/* -------------------------------------- */
+#angular-menu{
+    animation: angular-bar 2s forwards;
+}
+
+@keyframes angular-bar {
+    100%{
+        width: 65%;
+    }
+}
+/* -------------------------------------- */
+#nodeJs-menu{
+    animation: nodeJs-bar 2s forwards;
+}
+
+@keyframes nodeJs-bar {
+    100%{
+        width: 65%;
+    }
+}
+/* -------------------------------------- */
+#sql-menu{
+    animation: sql-bar 2s forwards;
+}
+
+@keyframes sql-bar {
+    100%{
+        width: 75%;
+    }
+}
+/* -------------------------------------- */
+#wp-menu{
+    animation: wp-bar 2s forwards;
+}
+
+@keyframes wp-bar {
+    100%{
+        width: 85%;
+    }
+}
+/* SOFT SKILLS BARS----------------------------------- */
+#ingles-menu{
+    animation: ingles-bar 2s forwards;
+}
+
+@keyframes ingles-bar {
+    100%{
+        width: 90%;
+    }
+}
+/* ----------------------------------- */
+#tee-menu{
+    animation: tee-bar 2s forwards;
+}
+
+@keyframes tee-bar {
+    100%{
+        width: 100%;
+    }
+}
+/* -------------------------------------- */
+#comprom-menu{
+    animation: comprom-bar 2s forwards;
+}
+
+@keyframes comprom-bar {
+    100%{
+        width: 100%;
+    }
+}
+/* -------------------------------------- */
+#colab-menu{
+    animation: colab-bar 2s forwards;
+}
+
+@keyframes colab-bar {
+    100%{
+        width: 100%;
+    }
+}
+/* -------------------------------------- */
+#resolProb-menu{
+    animation: resolProb-bar 2s forwards;
+}
+
+@keyframes resolProb-bar {
+    100%{
+        width: 85%;
+    }
+}
+/* -------------------------------------- */
+#apren-menu{
+    animation: apren-bar 2s forwards;
+}
+
+@keyframes apren-bar {
+    100%{
+        width: 100%;
+    }
+}
+/* -------------------------------------- */
+#lider-menu{
+    animation: lider-bar 2s forwards;
+}
+
+@keyframes lider-bar {
+    100%{
+        width: 75%;
+    }
+}
+/* -------------------------------------- */
+#fya-menu{
+    animation:fya-bar 2s forwards;
+}
+
+@keyframes fya-bar {
+    100%{
+        width: 95%;
+    }
+}
