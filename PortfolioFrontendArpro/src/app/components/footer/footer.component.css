@@ -5,14 +5,14 @@
 }
 
 footer{
-    background-color: #0b0d1b;
+    background-color: #4a5759;
     padding:20px;
     font-size: 14px;
     display:flex;
     flex-direction: column;
     text-align: center;
     /* box-shadow: 2px -2px 2px #0b0c0c; */
-    box-shadow: 1px -1px 1px #ffffff;
+    box-shadow: 1px -1px 1px #4a5759;
     letter-spacing: 2px;
 }
 

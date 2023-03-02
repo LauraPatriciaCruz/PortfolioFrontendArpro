@@ -9,9 +9,9 @@
 } */
 
 .row{
-    background-color: #0b0d1b ;
-    color:#ffffff;
-    padding: 80px 40px;
+    background-color: #ccd5ae ;
+    color:#8a817c;
+    padding: 40px 40px;
 }
 
 h1{
@@ -25,7 +25,7 @@ body {
 .container__card {
     max-width: 1200px;
     margin: auto;
-    margin-top:100px;
+    margin-top:20px;
     perspective: 1000px;/* para que se vea el giro de la card en 3D */
     display: flex;
     justify-content: center;
@@ -71,7 +71,7 @@ body {
 .card__back {
     transform: rotateY(180deg);
     background: white;
-    color:#191C32;
+    color:#8a817c;
 }   
 
 .body__card_front {
@@ -82,7 +82,7 @@ body {
     display: flex; /*alinea texto en el centro*/
     justify-content:center; /*alinea texto en el centro*/
     align-items: center; /*alinea texto en el centro*/
-    color:#fff;
+    color: white;
     transform: translateZ(60px);
     border:2px #0b0d1b;
     
@@ -119,34 +119,36 @@ body {
     font-size: 16px;
     cursor: pointer;
     border: none;
-    color: white;
-    background: #0b0d1b;
+    color: #8a817c;
+    background: #e9edc9;
     box-shadow: 1px 1px 30px -5 #5880f6;
     border-radius: 10px;
     text-decoration: none;
     letter-spacing: 1.5px;;
 }
 
-.button:hover {
-    box-shadow: 1px 1px 30px -5 #158112; 
+.body__card_back .button:hover {
+    box-shadow: 1px 1px 30px -5 #ccd5ae; 
     transform:scale(1.1);
-    transition: 0.7s ease-in-out;
+    transition: 0.1s ease-in-out;
     box-shadow: 1px 1px 30px 600ms;
     text-decoration: none;
+    background: #ccd5ae;
+    color:white
 }
 
-.footerContainer {
+/* .footerContainer {
     background-color: #002244;
     width:100%;
     margin-top: 180px;
     line-height: 25px;
     padding-top:5px;
     padding-bottom: 5px;
-}
+} */
 
-.footerP {
+/* .footerP {
     color: #F1FAFF;
     text-align: center;
     justify-content: center;
     font-size: 20px;
-}
+} */
